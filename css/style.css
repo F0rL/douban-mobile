@@ -1,0 +1,107 @@
+body {
+  position: relative;
+  font-size: 12px;
+  line-height: 1.2;
+  background-color: #fff;
+}
+
+main>section {
+  height: calc(100vh - 50px);
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;/* 手机上弹性 */
+}
+main>section {
+  display: none;
+}
+main>section:first-child {
+  display: block;
+}
+
+.item {
+  margin: 2.67vw;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.item>a {
+  display: block;
+  display: flex;
+}
+.item .cover,
+.item .cover img {
+  width: 70px;
+}
+.item .detail {
+  flex: 1;
+  padding-left: 10px;
+}
+.item .detail h2 {
+  font-size: 16px;
+}
+.item .detail .extra {
+  color: #999;
+  margin-top: 4px;
+}
+
+.item .detail .score {
+  color: #ff5722;
+}
+
+.loading {
+  padding: 5px;
+  text-align: center;
+  display: none;
+}
+.loading .iconfont {
+  display: inline-block;
+  animation: 1s rotate linear infinite;
+}
+@keyframes rotate {
+  0% { transform: rotate(0deg)}
+  100% { transform: rotate(360deg)}
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+footer>div {
+  flex: 1;
+  text-align: center;
+}
+footer .active {
+  color: #ff5722;
+}
+footer>div>span {
+  display: block;
+  padding-top: 5px;
+}
+
+section .search-area {
+  position: relative;
+  margin: 2.67vw;
+  padding-bottom: 2.67vw;
+  border-bottom: 0.27vw solid #ddd;
+}
+section .search-area input {
+  width: calc(100% - 15vw);
+  padding: 2.1vw;
+  background: #eee;
+  border: none;
+  border-radius: 0.5vw;
+  box-shadow: none;
+  outline: none;
+}
+section .search-area .button {
+  position: absolute;
+  right: 0vw;
+  padding: 2.13vw 2.67vw 2.13vw 2.67vw;
+  background: #ff5722;
+  color: #fff;
+  border-radius: 0.5vw;
+  cursor: pointer;
+}

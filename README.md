@@ -1,9 +1,8 @@
-# douban-movie-mobile
-移动端豆瓣电影轻页面
+# 移动端豆瓣电影轻页面
 ## 预览链接
-- 预览地址：
+- 预览地址：https://f0rl.github.io/douban-mobile/index.html
 - 扫描二维码
-![]( )
+![](http://ww1.sinaimg.cn/large/90864b23gy1fuqpyk1recj207s07st8n.jpg)
 
 ## 界面介绍
 - 主要由 `top250榜单`、`北美最新电影`、`搜索` 三个`tab`页面构成

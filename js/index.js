@@ -19,7 +19,7 @@ var Helper = {
   </a>
   </div>`
     var $node = $(template)
-    <!-- $node.find('a').attr('href', movie.alt) -->
+    $node.find('a').attr('href', movie.alt)
     $node.find('.cover img')
     .attr('src', movie.images.medium)
     $node.find('.detail h2').text(movie.title)

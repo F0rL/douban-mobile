@@ -5,7 +5,7 @@ var Helper = {
   
   createNode: function(movie){
     var template = `<div class="item">
-  <a href="#">
+  <a href="">
   <div class="cover">
   <img src="" alt="">
       </div>
